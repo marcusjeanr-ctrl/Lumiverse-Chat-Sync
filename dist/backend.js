@@ -14,7 +14,7 @@ function cleanSettings(s = {}) {
     repo: /^[\w.-]+\/[\w.-]+$/.test(repo) ? repo : '',
     branch: String(s.branch || 'main').trim() || 'main',
     folder: String(s.folder ?? 'chats').trim().replace(/^\/+|\/+$/g, ''),
-    autoMinutes: [0, 1, 5, 15, 30].includes(Number(s.autoMinutes)) ? Number(s.autoMinutes) : 5,
+    autoMinutes: [0, 0.1667, 1, 5, 15, 30].includes(Number(s.autoMinutes)) ? Number(s.autoMinutes) : 5,
     includeData: s.includeData !== false,
   };
 }

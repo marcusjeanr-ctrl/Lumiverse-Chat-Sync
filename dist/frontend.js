@@ -31,6 +31,7 @@ export function setup(ctx) {
       <label>Auto-push <small>after the chat has been quiet this long</small>
         <select id="cs-auto">
           <option value="0">Off (button only)</option>
+          <option value="0.1667">10 seconds</option>
           <option value="1">1 minute</option>
           <option value="5">5 minutes</option>
           <option value="15">15 minutes</option>

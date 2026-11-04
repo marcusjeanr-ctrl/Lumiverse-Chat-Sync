@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Chat Sync to GitHub",
   "identifier": "lumiverse_chat_sync",
   "description": "Pushes your Lumiverse chats as readable Markdown to a private GitHub repo so ChatGPT or Codex can read them.",
